@@ -56,7 +56,7 @@ class DataEvento {
 }
 
 const Natal = new DataEvento
-Natal.tempo = 'Dec 25 2021 00:00:00 GMT-0300'
+Natal.tempo = 'Dec 25 2021 00:00:00 GMT-0300' //natal de 2021, GMT(Greenwich Mean Time) pega o horario de brasilia[usado geralmente para pegar horario local]
 
 const paragrafo = document.createElement('p')
 body.appendChild(paragrafo)
